@@ -17,6 +17,12 @@ rails g migration Add
 
 `rails g migration RemoveAdminFromUsers`
 
+rails g migration AddMoreAttrsToUsers
+
+rails db:rollback
+
+Undos the last migration that had occured
+
 ## UserSubmissions
 IF a submission is approved, we will map (copy/paste) the fields to a User record.
 
