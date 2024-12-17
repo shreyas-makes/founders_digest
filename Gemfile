@@ -49,6 +49,7 @@ end
 group :development do
   gem 'letter_opener' # view mailers in browser
   gem 'web-console'
+  gem "rails-erd"
 end
 
 group :test do
