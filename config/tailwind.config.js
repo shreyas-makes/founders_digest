@@ -11,11 +11,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans]
+        sans: ['Inter', ...defaultTheme.fontFamily.sans]
       },
       // custom color palette for branding, see https://tailwindcss.com/docs/customizing-colors
       colors: {
-        primary: colors.lime,
+        primary: colors.teal,
         secondary: colors.black
       },
       keyframes: {
