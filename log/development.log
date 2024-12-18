@@ -4799,3 +4799,485 @@ Completed 200 OK in 58ms (Views: 48.8ms | ActiveRecord: 8.0ms (2 queries, 0 cach
   [1m[36mDelayed::Job Load (1.0ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:13.164496', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:13.162665' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:06:43.162671')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
   [1m[36mDelayed::Job Load (0.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:18.179062', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:18.178876' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:06:48.178880')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
   [1m[36mDelayed::Job Load (1.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:23.203365', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:23.202828' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:06:53.202838')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.9ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:28.222268', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:28.222017' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:06:58.222021')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.1ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:33.248913', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:33.248393' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:03.248403')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:38.303693', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:38.303537' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:08.303540')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (3.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:43.324897', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:43.324406' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:13.324415')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:48.353515', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:48.353022' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:18.353032')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.7ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:53.376603', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:53.376081' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:23.376091')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:27:58.391598', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:27:58.391419' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:28.391423')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.2ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:03.441111', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:03.440928' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:33.440933')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:08.460471', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:08.460269' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:38.460272')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:13.475973', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:13.475796' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:43.475800')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:18.493215', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:18.493018' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:48.493022')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:23.510941', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:23.510757' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:53.510760')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:28.534117', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:28.533694' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:07:58.533703')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.7ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:33.550285', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:33.550103' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:03.550107')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:38.567137', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:38.566950' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:08.566954')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:43.582368', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:43.582091' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:13.582095')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:48.595067', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:48.594890' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:18.594894')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:53.618592', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:53.618095' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:23.618105')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.4ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:28:58.948699', locked_by = 'host:NH-LP-0104.local pid:22598' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:28:58.946779' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:28.946783')) OR locked_by = 'host:NH-LP-0104.local pid:22598') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+2024-12-18T21:29:01+0000: [Worker(host:NH-LP-0104.local pid:22598)] Exiting...
+  [1m[36mDelayed::Job Update All (0.6ms)[0m  [1m[33mUPDATE "delayed_jobs" SET "locked_by" = NULL, "locked_at" = NULL WHERE "delayed_jobs"."locked_by" = 'host:NH-LP-0104.local pid:22598' /*application='FoundersDigest'*/[0m
+2024-12-18T21:29:05+0000: [Worker(host:NH-LP-0104.local pid:26812)] Starting Delayed::Worker
+  [1m[36mDelayed::Job Load (3.9ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:05.970071', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:05.967660' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:35.967674')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.3ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:11.028761', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:11.027869' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:41.027880')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:29:13 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='FoundersDigest'*/[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.5ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 28.9ms | GC: 0.6ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 22.6ms | GC: 0.4ms)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 2.1ms | GC: 0.2ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 194.5ms | GC: 13.3ms)
+Completed 200 OK in 204ms (Views: 182.5ms | ActiveRecord: 15.1ms (2 queries, 0 cached) | GC: 13.6ms)
+
+
+Started GET "/assets/tailwind-515b42d99073e25c98aa51846d49f51be91ebd017bf014a5883951e84d9ec70c.css" for ::1 at 2024-12-18 21:29:13 +0000
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:16.061608', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:16.061426' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:46.061436')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:21.089668', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:21.088719' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:51.088796')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:26.118842', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:26.118327' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:08:56.118365')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.2ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:31.147181', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:31.146761' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:01.146788')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:36.173550', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:36.172330' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:06.172358')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (10.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:41.196029', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:41.189927' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:11.189937')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.4ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:46.230233', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:46.229502' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:16.229535')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.2ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:51.254336', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:51.253606' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:21.253635')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.7ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:29:56.305177', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:29:56.304797' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:26.304829')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:01.329927', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:01.329468' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:31.329499')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:06.357586', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:06.357101' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:36.357130')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.9ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:11.389694', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:11.387876' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:41.387910')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.4ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:16.411833', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:16.409977' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:46.409999')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.2ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:21.432917', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:21.431169' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:51.431198')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.7ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:26.454618', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:26.454227' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:09:56.454249')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.0ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:31.476752', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:31.476396' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:01.476419')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:36.521629', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:36.521312' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:06.521334')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:41.548217', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:41.547404' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:11.547431')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:46.563952', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:46.563674' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:16.563681')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.0ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:51.578292', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:51.578136' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:21.578144')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:30:56.933351', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:30:56.932133' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:26.932141')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:30:57 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (28.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 49.2ms | GC: 0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 42.1ms | GC: 0.5ms)
+  Rendered shared/_flash.html.erb (Duration: 2.3ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 3.5ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 150.3ms | GC: 12.5ms)
+Completed 200 OK in 153ms (Views: 78.4ms | ActiveRecord: 73.4ms (2 queries, 0 cached) | GC: 12.5ms)
+
+
+Started GET "/assets/tailwind-d2570a9a992f2122b9d8186965f26ca8a5cdeb036bfc5e4ca3771aaf644936f4.css" for ::1 at 2024-12-18 21:30:58 +0000
+Started GET "/" for ::1 at 2024-12-18 21:31:00 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.4ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 2.0ms | GC: 0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 1.2ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | GC: 0.1ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.7ms (2 queries, 0 cached) | GC: 0.1ms)
+
+
+  [1m[36mDelayed::Job Load (1.1ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:01.960453', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:01.959027' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:31.959046')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:06.986994', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:06.986391' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:36.986411')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:12.002865', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:12.002698' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:42.002706')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.2ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:17.028025', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:17.027505' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:47.027532')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:31:19 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (2.3ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 13.9ms | GC: 0.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 17.9ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 1.8ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 3.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 64.6ms | GC: 1.5ms)
+Completed 200 OK in 67ms (Views: 57.5ms | ActiveRecord: 8.3ms (2 queries, 0 cached) | GC: 1.5ms)
+
+
+Started GET "/blog" for ::1 at 2024-12-18 21:31:20 +0000
+Processing by BlogPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blog_posts/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/blog_posts/index.html.erb:5
+  [1m[36mBlogPost Load (1.6ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."draft" = FALSE ORDER BY "blog_posts"."created_at" ASC /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/blog_posts/index.html.erb:27
+  Rendered collection of templates [0 times] (Duration: 0.0ms | GC: 0.0ms)
+  Rendered blog_posts/index.html.erb within layouts/application (Duration: 7.9ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.8ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | GC: 0.0ms)
+Completed 200 OK in 27ms (Views: 15.5ms | ActiveRecord: 5.8ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2024-12-18 21:31:20 +0000
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  Rendering layout layouts/application.html.erb
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered dashboard/index.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.3ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 5.8ms | GC: 0.5ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 2.7ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | GC: 0.5ms)
+Completed 200 OK in 21ms (Views: 13.4ms | ActiveRecord: 0.7ms (2 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/account" for ::1 at 2024-12-18 21:31:21 +0000
+Processing by AccountController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='account'*/[0m
+  Rendering layout layouts/application.html.erb
+  Rendering account/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered account/index.html.erb within layouts/application (Duration: 2.4ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.6ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='account'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.3ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | GC: 0.2ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.5ms)
+Completed 200 OK in 18ms (Views: 9.2ms | ActiveRecord: 1.1ms (2 queries, 0 cached) | GC: 0.5ms)
+
+
+  [1m[36mDelayed::Job Load (0.7ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:22.169532', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:22.168284' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:52.168292')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.9ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:27.191191', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:27.190502' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:10:57.190532')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:32.223202', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:32.222075' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:02.222084')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:31:34 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 5.9ms | GC: 0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 11.2ms | GC: 0.1ms)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 59.0ms | GC: 9.1ms)
+Completed 200 OK in 62ms (Views: 55.6ms | ActiveRecord: 5.3ms (2 queries, 0 cached) | GC: 9.1ms)
+
+
+Started GET "/assets/tailwind-b31d4fcbaa9529324169aa5ed309053eafc61be57a98b2119d5c6ff8a2c65834.css" for ::1 at 2024-12-18 21:31:34 +0000
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:37.360338', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:37.358769' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:07.358773')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:42.395101', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:42.394349' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:12.394364')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:31:46 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 5.1ms | GC: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 11.6ms | GC: 0.3ms)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | GC: 0.2ms)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | GC: 5.8ms)
+Completed 200 OK in 58ms (Views: 50.3ms | ActiveRecord: 5.8ms (2 queries, 0 cached) | GC: 6.0ms)
+
+
+Started GET "/assets/tailwind-2621081808298528298246dd6e1c065831b39c529df1a10f3b40fb10603739c8.css" for ::1 at 2024-12-18 21:31:46 +0000
+  [1m[36mDelayed::Job Load (0.4ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:47.499335', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:47.497800' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:17.497805')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:31:47 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.3ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.6ms | GC: 0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 1.8ms | GC: 0.2ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.2ms)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.6ms (2 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for ::1 at 2024-12-18 21:31:50 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 4.0ms | GC: 0.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 14.0ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 5.0ms | GC: 4.4ms)
+  Rendered shared/_header.html.erb (Duration: 1.6ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | GC: 5.0ms)
+Completed 200 OK in 49ms (Views: 41.7ms | ActiveRecord: 6.1ms (2 queries, 0 cached) | GC: 5.0ms)
+
+
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:52.615253', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:52.613986' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:22.613990')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.9ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:31:57.644028', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:31:57.643574' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:27.643585')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.3ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:02.674020', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:02.673307' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:32.673320')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:32:04 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 9.5ms | GC: 2.8ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 26.9ms | GC: 13.8ms)
+  Rendered shared/_flash.html.erb (Duration: 1.9ms | GC: 1.5ms)
+  Rendered shared/_header.html.erb (Duration: 9.5ms | GC: 6.5ms)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 95.4ms | GC: 43.6ms)
+Completed 200 OK in 99ms (Views: 90.1ms | ActiveRecord: 7.6ms (2 queries, 0 cached) | GC: 43.8ms)
+
+
+  [1m[36mDelayed::Job Load (0.4ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:07.799945', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:07.798725' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:37.798730')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:32:10 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.3ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 4.2ms | GC: 0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 18.2ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 2.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | GC: 7.1ms)
+Completed 200 OK in 59ms (Views: 50.1ms | ActiveRecord: 7.5ms (2 queries, 0 cached) | GC: 7.1ms)
+
+
+  [1m[36mDelayed::Job Load (0.3ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:12.925499', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:12.924426' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:42.924431')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.6ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:17.949197', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:17.948472' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:47.948485')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:32:21 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.3ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 9.4ms | GC: 0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 19.2ms | GC: 5.3ms)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 50.2ms | GC: 5.7ms)
+Completed 200 OK in 54ms (Views: 43.3ms | ActiveRecord: 8.7ms (2 queries, 0 cached) | GC: 5.7ms)
+
+
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:23.079356', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:23.078235' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:53.078239')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/blog" for ::1 at 2024-12-18 21:32:23 +0000
+Processing by BlogPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blog_posts/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/blog_posts/index.html.erb:5
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."draft" = FALSE ORDER BY "blog_posts"."created_at" ASC /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/blog_posts/index.html.erb:27
+  Rendered collection of templates [0 times] (Duration: 0.1ms | GC: 0.0ms)
+  Rendered blog_posts/index.html.erb within layouts/application (Duration: 6.2ms | GC: 0.5ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.1ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | GC: 0.9ms)
+Completed 200 OK in 20ms (Views: 12.8ms | ActiveRecord: 3.1ms (3 queries, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/dashboard" for ::1 at 2024-12-18 21:32:23 +0000
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  Rendering layout layouts/application.html.erb
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered dashboard/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | GC: 0.2ms)
+Completed 200 OK in 13ms (Views: 6.7ms | ActiveRecord: 0.6ms (2 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/account" for ::1 at 2024-12-18 21:32:24 +0000
+Processing by AccountController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='account'*/[0m
+  Rendering layout layouts/application.html.erb
+  Rendering account/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered account/index.html.erb within layouts/application (Duration: 2.1ms | GC: 0.1ms)
+  [1m[36mScriptTag Load (0.2ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='account'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.5ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | GC: 0.1ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.3ms)
+Completed 200 OK in 14ms (Views: 8.8ms | ActiveRecord: 0.7ms (2 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/dashboard" for ::1 at 2024-12-18 21:32:24 +0000
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  Rendering layout layouts/application.html.erb
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered dashboard/index.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.6ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 2.0ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | GC: 0.4ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | GC: 0.4ms)
+Completed 200 OK in 15ms (Views: 8.7ms | ActiveRecord: 1.9ms (2 queries, 0 cached) | GC: 1.3ms)
+
+
+  [1m[36mDelayed::Job Load (1.7ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:28.107024', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:28.106161' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:11:58.106174')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/dashboard" for ::1 at 2024-12-18 21:32:28 +0000
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  Rendering layout layouts/application.html.erb
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered dashboard/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.3ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='dashboard'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.0ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | GC: 0.2ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | GC: 0.2ms)
+Completed 200 OK in 14ms (Views: 6.2ms | ActiveRecord: 1.6ms (2 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/blog" for ::1 at 2024-12-18 21:32:29 +0000
+Processing by BlogPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering blog_posts/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/blog_posts/index.html.erb:5
+  [1m[36mBlogPost Load (0.2ms)[0m  [1m[34mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."draft" = FALSE ORDER BY "blog_posts"."created_at" ASC /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/blog_posts/index.html.erb:27
+  Rendered collection of templates [0 times] (Duration: 0.0ms | GC: 0.0ms)
+  Rendered blog_posts/index.html.erb within layouts/application (Duration: 6.3ms | GC: 0.4ms)
+  [1m[36mScriptTag Load (0.4ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='blog_posts'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.5ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 3.0ms | GC: 0.2ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | GC: 0.6ms)
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 2.0ms (3 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/account" for ::1 at 2024-12-18 21:32:30 +0000
+Processing by AccountController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='index',application='FoundersDigest',controller='account'*/[0m
+  Rendering layout layouts/application.html.erb
+  Rendering account/index.html.erb within layouts/application
+  Rendered shared/_heading.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered account/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.5ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='index',application='FoundersDigest',controller='account'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 1.0ms | GC: 0.0ms)
+  Rendered shared/_impersonator.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 4.8ms | ActiveRecord: 1.0ms (2 queries, 0 cached) | GC: 0.7ms)
+
+
+  [1m[36mDelayed::Job Load (0.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:33.126571', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:33.126405' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:12:03.126409')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+Started GET "/" for ::1 at 2024-12-18 21:32:36 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  [1m[36mScriptTag Load (0.3ms)[0m  [1m[34mSELECT "script_tags".* FROM "script_tags" WHERE "script_tags"."enabled" = TRUE /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_script_tags.html.erb:1
+  Rendered shared/_script_tags.html.erb (Duration: 0.9ms | GC: 0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1 /*action='home',application='FoundersDigest',controller='pages'*/[0m
+  ↳ app/views/shared/_impersonator.html.erb:1
+  Rendered shared/_impersonator.html.erb (Duration: 1.1ms | GC: 0.0ms)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.6ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mDelayed::Job Load (0.7ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:38.153674', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:38.153436' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:12:08.153441')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (0.8ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:43.171114', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:43.170936' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:12:13.170940')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:48.195448', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:48.195033' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:12:18.195044')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (2.0ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:53.212761', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:53.212503' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:12:23.212507')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
+  [1m[36mDelayed::Job Load (1.5ms)[0m  [1m[37mUPDATE "delayed_jobs" SET locked_at = '2024-12-18 21:32:58.236163', locked_by = 'host:NH-LP-0104.local pid:26812' WHERE ctid = ANY (ARRAY (SELECT ctid FROM "delayed_jobs" WHERE (((run_at <= '2024-12-18 21:32:58.235741' AND (locked_at IS NULL OR locked_at < '2024-12-18 21:12:28.235758')) OR locked_by = 'host:NH-LP-0104.local pid:26812') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 5 FOR UPDATE SKIP LOCKED)) RETURNING * /*application='FoundersDigest'*/[0m
