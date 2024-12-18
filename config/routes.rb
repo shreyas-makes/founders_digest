@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
   root 'pages#home'
+  get 'apply', to: 'pages#apply'
 
   # This configuration sets up routes for user authentication using Devise.
   # It customizes the path names for signing in and signing up, and specifies a custom controller for registrations.
