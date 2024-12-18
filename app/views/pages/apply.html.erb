@@ -2,12 +2,8 @@
 
 <div class="min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
   <div class="max-w-md w-full">
-    <div class="text-center">
-      <h1 class="text-3xl font-bold">Apply to Founders Digest</h1>
-      <p class="mt-2 text-sm text-gray-600">
-        Each submission is manually reviewed by our team within 24 hours
-      </p>
-    </div>
+    <%= render 'shared/heading', title: 'Apply to Founders Digest', description: 'Each submission is manually reviewed by our team within 24 hours
+' %>
 
     <%= form_with(url: apply_path, method: :post, class: "mt-8 space-y-6") do |f| %>
       <div class="space-y-6">
