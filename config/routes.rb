@@ -3,7 +3,10 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
+  # This configuration sets up routes for user authentication using Devise.
+  # It customizes the path names for signing in and signing up, and specifies a custom controller for registrations.
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_up: 'signup' }, controllers: { registrations: 'registrations' }
+  # This line adds a custom route for logging out, which is handled by the 'pages#logout' action.
   get 'logout', to: 'pages#logout', as: 'logout'
 
   resources :subscribe, only: [:index]
