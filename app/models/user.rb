@@ -16,6 +16,6 @@ class User < ApplicationRecord
   # :nocov:
 
   has_many :projects
-  has_many :subscriptions
+  has_many :subscribers
   has_many :stakeholder_updates, through: :projects
 end

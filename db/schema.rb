@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_12_16_064335) do
+ActiveRecord::Schema[8.0].define(version: 2024_12_18_173556) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -115,13 +115,13 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_16_064335) do
     t.index ["project_id"], name: "index_stakeholder_updates_on_project_id"
   end
 
-  create_table "subscriptions", force: :cascade do |t|
+  create_table "subscribers", force: :cascade do |t|
     t.bigint "project_id", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["project_id"], name: "index_subscriptions_on_project_id"
-    t.index ["user_id"], name: "index_subscriptions_on_user_id"
+    t.index ["project_id"], name: "index_subscribers_on_project_id"
+    t.index ["user_id"], name: "index_subscribers_on_user_id"
   end
 
   create_table "user_submissions", force: :cascade do |t|
@@ -159,6 +159,6 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_16_064335) do
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "projects", "users"
   add_foreign_key "stakeholder_updates", "projects"
-  add_foreign_key "subscriptions", "projects"
-  add_foreign_key "subscriptions", "users"
+  add_foreign_key "subscribers", "projects"
+  add_foreign_key "subscribers", "users"
 end
