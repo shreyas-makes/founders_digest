@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  ActiveAdmin.routes(self)
+  # ActiveAdmin.routes(self)
 
   root 'pages#home'
   get 'apply', to: 'pages#apply'
@@ -29,8 +29,15 @@ Rails.application.routes.draw do
   end
 
   # admin panels
-  authenticated :user, lambda(&:admin?) do
-    # insert sidekiq etc
-    mount Split::Dashboard, at: 'admin/split'
+  # authenticated :user, lambda(&:admin?) do
+  #   # insert sidekiq etc
+  #   mount Split::Dashboard, at: 'admin/split'
+  # end
+
+
+  namespace  :admin do
+    get '/', to: 'pages#dashboard'
   end
+
+
 end

@@ -1,0 +1,82 @@
+<%= render 'shared/heading', 
+  title: 'Admin', 
+  description: 'Accept or reject applications' %>
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="mt-8 flex flex-col">
+    <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+      <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+        <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+          <table class="min-w-full divide-y divide-gray-300">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Name</th>
+                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Role</th>
+                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
+                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Website</th>
+                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Snippet</th>
+                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Decision</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200 bg-white">
+              <tr>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Ryan</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Founder</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">shreyas@fomo.com</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  <a href="https://ryan.com" class="text-indigo-600 hover:text-indigo-900">ryan.com</a>
+                </td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">This month we did something spectacular.</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  <div class="inline-flex rounded-md shadow-sm">
+                    <!--Drop down button -->
+                    <div>
+                      <div class="mt-2 grid grid-cols-1">
+                          <select id="location" name="location" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                            <option>Pending</option>
+                            <option selected>Approved</option>
+                            <option>Rejected</option>
+                          </select>
+                          <svg class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+                            <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                          </svg>
+                        </div>
+                      </div>
+                      
+                      
+            
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Shreyas</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Operator</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">shreyas@fomo.com</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  <a href="https://shreyas.com" class="text-indigo-600 hover:text-indigo-900">shreyas.com</a>
+                </td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">This month we did something spectacular.</td>
+                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                    <!-- Button again -->
+                    <div>
+                        <div class="mt-2 grid grid-cols-1">
+                          <select id="location" name="location" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                            <option>Pending</option>
+                            <option selected>Approved</option>
+                            <option>Rejected</option>
+                          </select>
+                          <svg class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+                            <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                          </svg>
+                        </div>
+                      </div>
+                      
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

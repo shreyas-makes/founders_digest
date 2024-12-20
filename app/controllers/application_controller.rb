@@ -8,8 +8,12 @@ class ApplicationController < ActionController::Base
     redirect_to new_user_session_path, alert: alert_message unless current_user&.admin?
   end
 
+  # def after_sign_in_path_for(resource)
+  #   resource.paying_customer? ? dashboard_index_path : subscribe_index_path # point these wherever you want
+  # end
+
   def after_sign_in_path_for(resource)
-    resource.paying_customer? ? dashboard_index_path : subscribe_index_path # point these wherever you want
+    admin_dashboard_path # point these wherever you want
   end
 
   def maybe_skip_onboarding
