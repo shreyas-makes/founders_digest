@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   # This line adds a custom route for logging out, which is handled by the 'pages#logout' action.
   get 'logout', to: 'pages#logout', as: 'logout'
 
+  get 'stakeholder_updates/new', to: 'stakeholder_updates#new'
+
   resources :subscribe, only: [:index]
   resources :dashboard, only: [:index]
   resources :account, only: %i[index update] do

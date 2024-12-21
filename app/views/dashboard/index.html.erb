@@ -1,1 +1,55 @@
-<%= render partial: "shared/heading", locals: { title: 'Dashboard', description: '' } %>
+<%= render partial: "shared/heading", locals: { title: 'Dashboard', description: 'Browse newsletters and upload your own' } %>
+
+<div class="mt-8 space-y-6">
+  <%# Newsletter Card - For Your Own Newsletter %>
+  <div class="p-6 bg-white rounded-lg border border-gray-200 shadow-sm">
+    <div class="flex items-start justify-between">
+      <div class="flex items-start space-x-4">
+        <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center">
+          <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-medium text-gray-900">Your Newsletter</h3>
+          <p class="mt-1 text-sm text-gray-500">Start sharing updates with your subscribers</p>
+        </div>
+      </div>
+      <div class="text-right space-y-2">
+        <div class="text-sm font-medium text-gray-900">Number of Subscribers</div>
+        <div class="text-sm font-medium text-gray-900">Edit Subscription</div>
+        <div class="text-sm font-medium text-gray-900"><a href="/stakeholder_updates/new">Share Update</a></div>
+      </div>
+    </div>
+  </div>
+
+    <% 5.times do %>
+      <div class="p-6 bg-white rounded-lg">
+        `<div class="flex items-start justify-center space-x-80">
+          <div class="flex items-start space-x-4">
+            <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center">
+              <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Title</h3>
+              <p class="mt-1 text-sm text-gray-500">Description</p>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <span class="isolate inline-flex rounded-md shadow-sm">
+                <button type="button" class="relative inline-flex items-center gap-x-1.5 rounded-l-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>
+                  
+                  Subscribe
+                </button>
+                </span>
+              
+          </div>
+        </div>
+      </div>
+    <% end %>
+</div>
