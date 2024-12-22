@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
   # end
 
   def after_sign_in_path_for(resource)
-    admin_dashboard_path # point these wherever you want
+    admin_path # point these wherever you want
   end
 
   def maybe_skip_onboarding
