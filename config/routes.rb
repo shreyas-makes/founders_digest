@@ -38,7 +38,6 @@ Rails.application.routes.draw do
   #   mount Split::Dashboard, at: 'admin/split'
   # end
 
-
   namespace  :admin do
     get '/', to: 'pages#dashboard'
   end
