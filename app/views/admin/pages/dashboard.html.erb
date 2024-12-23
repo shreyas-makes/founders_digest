@@ -12,6 +12,7 @@
             <thead class="bg-gray-50">
               <tr>
                 <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Name</th>
+                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Plan</th>
                 <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Role</th>
                 <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
                 <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Website</th>
@@ -23,6 +24,7 @@
               <% @user_submissions.each do |submission| %>
                 <tr>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><%= submission.first_name %> <%= submission.last_name %></td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><%= submission.plan_name %></td>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><%= submission.job_role %></td>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><%= submission.email %></td>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 truncate max-w-xs">
