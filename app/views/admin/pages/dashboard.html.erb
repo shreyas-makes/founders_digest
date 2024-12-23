@@ -3,7 +3,7 @@
   description: 'Accept or reject applications' %>
 
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
   <div class="mt-8 flex flex-col">
     <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
       <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
@@ -16,58 +16,38 @@
                 <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
                 <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Website</th>
                 <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Snippet</th>
-                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Decision</th>
+                <th scope="col" class="px-12 py-3.5 text-left text-sm font-semibold text-gray-900">Decision</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-gray-200 bg-white">
-              <tr>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Ryan</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Founder</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">shreyas@fomo.com</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  <a href="https://ryan.com" class="text-indigo-600 hover:text-indigo-900">ryan.com</a>
-                </td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">This month we did something spectacular.</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  <div class="inline-flex rounded-md shadow-sm">
-                    <!--Drop down button -->
-                    <div>
-                      <div class="mt-2 grid grid-cols-1">
-                          <select id="location" name="location" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                            <option>Pending</option>
-                            <option selected>Approved</option>
-                            <option>Rejected</option>
-                          </select>
-                        </div>
-                      </div>
-                      
-                      
-            
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Shreyas</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Operator</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">shreyas@fomo.com</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  <a href="https://shreyas.com" class="text-indigo-600 hover:text-indigo-900">shreyas.com</a>
-                </td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">This month we did something spectacular.</td>
-                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                    <!-- Button again -->
-                    <div>
+              <% @user_submissions.each do |submission| %>
+                <tr>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><%= submission.first_name %> <%= submission.last_name %></td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><%= submission.job_role %></td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><%= submission.email %></td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 truncate max-w-xs">
+                    <a href="<%= submission.website %>" class="text-indigo-600 hover:text-indigo-900"><%= submission.website %></a>
+                  </td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 truncate max-w-xs"><%= submission.text %></td>
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                    <div class="inline-flex rounded-md shadow-sm">
+                      <!--Drop down button -->
+                      <div>
                         <div class="mt-2 grid grid-cols-1">
-                          <select id="location" name="location" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                            <option>Pending</option>
-                            <option selected>Approved</option>
-                            <option>Rejected</option>
-                          </select>
+                            <select id="status" name="status" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                              <option value="pending">Pending</option>
+                              <option value="approved" selected>Approved</option>
+                              <option value="rejected">Rejected</option>
+                            </select>
+                          </div>
                         </div>
+                        
+                                
+            
                       </div>
-                      
-                </td>
-              </tr>
+                    </td>
+                </tr>
+              <% end %>
             </tbody>
           </table>
         </div>
