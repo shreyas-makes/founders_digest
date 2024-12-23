@@ -39,7 +39,7 @@ Rails.application.routes.draw do
   # end
 
   namespace  :admin do
-    get '/', to: 'pages#dashboard'
+    get '/', to: 'dashboard#index'
   end
 
 
