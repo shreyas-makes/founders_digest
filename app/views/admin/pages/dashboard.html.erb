@@ -33,21 +33,12 @@
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 truncate max-w-xs"><%= submission.text %></td>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                     <div class="inline-flex rounded-md shadow-sm">
-                      <!--Drop down button -->
-                      <div>
-                        <div class="mt-2 grid grid-cols-1">
-                            <select id="status" name="status" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                              <option value="pending">Pending</option>
-                              <option value="approved" selected>Approved</option>
-                              <option value="rejected">Rejected</option>
-                            </select>
-                          </div>
-                        </div>
-                        
-                                
-            
-                      </div>
-                    </td>
+                      <%= form_for submission, local: true, url: admin_user_submission_path(submission) do |form| %>
+                        <%= form.select :status, options_for_select([['Pending', 'pending'], ['Approved', 'approved'], ['Rejected', 'rejected']], selected: submission.status || 'pending'), class: "mt-2 grid grid-cols-1 col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" %>
+                        <%= form.submit 'Update', class: 'mt-4 w-full flex justify-center py-2.5 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500' %>
+                      <% end %>
+                    </div>
+                  </td>
                 </tr>
               <% end %>
             </tbody>

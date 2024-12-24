@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   resources :billing_portal, only: [:new, :create]
   resources :blog_posts, controller: :blog_posts, path: "blog", param: :slug
 
-  resources :user_submissions, only: [:create]
+  resources :user_submissions, only: [:create, :update]
 
   # static pages
   pages = %w[
@@ -40,6 +40,7 @@ Rails.application.routes.draw do
 
   namespace  :admin do
     get '/', to: 'pages#dashboard'
+    resources :user_submissions, only: [:update]
   end
 
 
