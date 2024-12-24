@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   root 'pages#home'
   get 'apply', to: 'pages#apply'
+  get 'thank-you', to: 'pages#thanks'
   get 'start', to: 'pages#start'
 
   # This configuration sets up routes for user authentication using Devise.

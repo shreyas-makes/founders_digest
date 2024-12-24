@@ -1,14 +1,9 @@
 class UserSubmissionsController < ApplicationController
     def create
-        puts "URL params: #{params}"
-        puts "Submission params: #{user_submission_params}"
   
         @user_submission = UserSubmission.create!(user_submission_params)
-        puts "Created submission with plan_name: #{@user_submission.plan_name}"
-  
-        # puts "WHITELISTED PARAMS: #{user_submission_params}"
-        # UserSubmission.create!(user_submission_params)
-        redirect_to root_path, notice: 'We just received it, thank you!'
+
+        redirect_to thank_you_path
         # TODO: Redirect to thank you page
         # puts "PARAMS: #{params}"
         # In here, we will get the client request while submitting the form

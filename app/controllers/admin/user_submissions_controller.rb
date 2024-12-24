@@ -22,5 +22,4 @@ class Admin::UserSubmissionsController < ApplicationController
             @user_submission = UserSubmission.find(params[:id])
         end
 
-    
 end

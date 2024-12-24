@@ -4,6 +4,10 @@ class PagesController < ApplicationController
   def home; end
 
   def apply
+    @plan_name = params[:plan_name] || 'free'
+  end
+
+  def thanks
     
   end
 
