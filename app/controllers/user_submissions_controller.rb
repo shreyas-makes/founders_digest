@@ -14,9 +14,6 @@ class UserSubmissionsController < ApplicationController
         # In here, we will get the client request while submitting the form
     end
 
-    def update
-        # TODO: Update user submissions status
-    end
 
 # Accepts form inputs from the /apply page, anything else, we will separate concerns using an admin controller
     def user_submission_params

@@ -22,4 +22,5 @@ class Admin::UserSubmissionsController < ApplicationController
         def set_user_submission
             @user_submission = UserSubmission.find(params[:id])
         end
+
 end
