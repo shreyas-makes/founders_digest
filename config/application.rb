@@ -1,3 +1,5 @@
+#The file that boots up all the other files, and that's the part of magic on rails
+
 require_relative "boot"
 
 require "rails/all"
@@ -28,6 +30,7 @@ module FoundersDigest
     config.active_job.queue_adapter = :delayed
 
     # mailers via postmark
+    # This is used to set the config for your mailers
     config.action_mailer.default_url_options = { host: Rails.application.credentials.base_url }
     config.action_mailer.default_options = { from: Rails.application.credentials.admin_email }
     config.action_mailer.delivery_method = :postmark
@@ -48,5 +51,6 @@ module FoundersDigest
       g.assets false # stylesheets
       g.helper true
     end
+    
   end
 end

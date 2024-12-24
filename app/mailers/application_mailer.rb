@@ -1,10 +1,10 @@
 class ApplicationMailer < ActionMailer::Base
   layout 'mailer'
-  default from: '"Support Team" <support@speedrail.com>'
+  default from: '"Founders Digest" <support@speedrail.com>'
 
   after_action :create_mail_log
 
-  # Default to mailer views in `views/mailers`
+  # Default to mailer views in `views/mailers` (this is to avoid any weird context switching) app/mailers is for backend, and the app/views/mailers has the frontend views
   def self.inherited(subclass)
     super(subclass)
     subclass.default template_path: "mailers/#{subclass.name.to_s.underscore}"
