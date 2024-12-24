@@ -3,7 +3,7 @@ class UserSubmissionsController < ApplicationController
   
         @user_submission = UserSubmission.create!(user_submission_params)
 
-        redirect_to thank_you_path
+        redirect_to thanks_path
         # TODO: Redirect to thank you page
         # puts "PARAMS: #{params}"
         # In here, we will get the client request while submitting the form
