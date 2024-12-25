@@ -2,12 +2,20 @@ class UserSubmission < ApplicationRecord
     validates :first_name, :last_name, :email, :website, :job_role, :text, presence: true
     validates :plan_name, inclusion: { in: %w(free paid) }
 
-    after_update :send_mailer
+    after_update :finish_processing
 
-    def send_mailer
-        puts "SENDING MAILER.."
-        UserSubmissionMailer.reject(self).deliver if status == 'reject'
-        UserSubmissionMailer.accept(self).deliver if status == 'accept'
+    def finish_processing
+        reject! if status == 'reject'
+        accept! if status == 'accept'
+    end
+
+
+    def reject!
+        UserSubmissionMailer.reject(self).deliver
+    end
+
+    def accept!
+        UserSubmissionMailer.accept(self).deliver
     end
 
 end
