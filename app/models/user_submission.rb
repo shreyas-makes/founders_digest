@@ -6,8 +6,8 @@ class UserSubmission < ApplicationRecord
 
     def send_mailer
         puts "SENDING MAILER.."
-        UserSubmissionMailer.reject(self.email).deliver if status == 'reject'
-        UserSubmissionMailer.accept(self.email).deliver if status == 'accept'
+        UserSubmissionMailer.reject(self).deliver if status == 'reject'
+        UserSubmissionMailer.accept(self).deliver if status == 'accept'
     end
 
 end
