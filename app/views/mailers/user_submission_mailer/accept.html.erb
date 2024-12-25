@@ -2,4 +2,13 @@
 
 <p>Your application has been reviewed, and we are excited to send you an invitation</p>
 
-<p>Get started here: << INSERT LINK HERE >> </p>
+<p></br>
+    <% base_url = Rails.env.production? ? "https://foundersdigest.com" : "http://localhost:3000" %>
+    Get started <a href="<%= base_url + '/login' %>">here</a>:<br>
+</p>
+
+<p>Username: <%= @email %></p>
+
+<p>Password: <%= @password %></p>
+
+<p>Founders Digest Team</p>
