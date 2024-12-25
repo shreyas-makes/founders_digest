@@ -2,7 +2,7 @@
   <nav class="flex items-center justify-between flex-wrap">
     <div class="flex items-center flex-no-shrink text-white mr-6">
       <!-- <% logo_path = current_user ? dashboard_index_path : root_path %> -->
-      <% logo_path = current_user ? root_path %>
+      <% logo_path = current_user ? root_path : root_path %>
       <%= link_to logo_path, class:"flex items-center hover:opacity-80" do %>
         <%= image_tag "avatar.png",  style: "max-height: 42px" %>
         <span class="font-semibold text-xl tracking-tight text-primary-600"><%= Rails.application.credentials.company_name %></span>

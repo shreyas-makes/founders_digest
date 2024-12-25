@@ -16,7 +16,7 @@ class UserSubmission < ApplicationRecord
 
     def accept!
         password = generate_password
-        User.create!(email: self.email)
+        User.create!(email: self.email, password: password)
         UserSubmissionMailer.accept(self, password).deliver
     end
 
