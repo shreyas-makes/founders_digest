@@ -10,7 +10,9 @@ module Onboardable
   end
 
   def send_welcome_email
-    UserMailer.welcome(self).deliver
+    Rails.logger.info "Attempting to send welcome email to #{email}"  # Add logging
+    result = UserMailer.welcome(self).deliver
+    Rails.logger.info "Welcome email delivery result: #{result.inspect}"  # Add logging
   end
   # handle_asynchronously :send_welcome_email
 end
