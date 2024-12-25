@@ -4,11 +4,8 @@
 
 <p></br>
     <% base_url = Rails.env.production? ? "https://foundersdigest.com" : "http://localhost:3000" %>
-    Get started <a href="<%= base_url + '/login' %>">here</a>:<br>
+    Get started <a href="<%= base_url + '/magic_login?auth_code=' + @auth_code %>">here</a>:<br>
 </p>
 
-<p>Username: <%= @email %></p>
-
-<p>Password: <%= @password %></p>
 
 <p>Founders Digest Team</p>
