@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   resources :blog_posts, controller: :blog_posts, path: "blog", param: :slug
 
   resources :user_submissions, only: [:create, :update]
+  resources :projects, only: [:create]
 
   # static pages
   pages = %w[

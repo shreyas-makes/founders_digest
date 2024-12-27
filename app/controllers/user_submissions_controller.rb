@@ -13,6 +13,8 @@ class UserSubmissionsController < ApplicationController
         # TODO: Update user submissions status
     end
 
+    private
+
 # Accepts form inputs from the /apply page, anything else, we will separate concerns using an admin controller
     def user_submission_params
         params.require(:user_submission).permit(:first_name, :last_name, :text, :email, :plan, :website, :plan, :job_role, :plan_name, :status)
